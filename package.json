@@ -1,0 +1,29 @@
+{
+  "name": "hackernews",
+  "version": "0.1.0",
+  "private": true,
+   "engines": {
+    "node": "6.9.5",
+    "npm": "3.10.10"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "react-addons-test-utils": "^15.6.0",
+    "react-scripts": "1.0.7",
+    "react-test-renderer": "^15.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
